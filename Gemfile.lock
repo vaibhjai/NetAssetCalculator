@@ -1,0 +1,23 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    io-wait (0.1.0)
+    json (1.8.6)
+    net-http (0.1.1)
+      net-protocol
+      uri
+    net-protocol (0.1.1)
+      io-wait
+      timeout
+    timeout (0.1.1)
+    uri (0.10.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json (= 1.8.6)!
+  net-http!
+
+BUNDLED WITH
+   1.17.3
